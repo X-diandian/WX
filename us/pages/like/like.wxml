@@ -1,0 +1,103 @@
+<!--pages/like/like.wxml-->
+<!-- 背景图 -->
+<view class=''>
+
+  <!-- 背景 -->
+  <view class='bgwrap'>
+    <image src='/img/like/banner2.png' style='width:100%;height:370rpx;'></image>
+  </view>
+
+  <!-- 用户头像 -->
+  <view class='userG'>
+    <image src='/img/popular/bannerBg.png' style='width:120rpx;height:120rpx;border-radius:50%;'></image>
+    <text>messss</text>
+  </view>
+
+  <!-- 导航 -->
+  <view class='likeNav'>
+    <view class='likeNavLeft'>
+      <image src='/img/like/aboutus.png' style='width:34rpx;height:34rpx;'> </image>
+      <navigator url='/pages/like/about/about' hover-class="none">
+        <text>关于我们</text>
+      </navigator>
+    </view>
+    <view class='likeNavRight'>
+      <text>12</text>
+      <text>我的书单</text>
+    </view>
+  </view>
+  <!-- 导航 end-->
+
+</view>
+<!-- 背景图 end-->
+
+<!-- 喜欢标题 -->
+<view class='likeTitle'>
+  <text>喜欢</text>
+</view>
+<!-- 喜欢标题 end-->
+
+<!-- 喜欢内容循环 -->
+<view class='likeListswrap'>
+
+  <!-- 第一条循环 -->
+  <view class='likeLists'>
+    <!--1 -->
+    <view class='likeListsL'>
+      <text class='likeListsLS'>电影</text>
+      <view class='likeListsI'>
+        <image src='/img/popular/likeactive.png' style='width:36rpx;height:28rpx;'></image>
+        <text>111</text>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class='likeListsC'>
+      <image src='/img/like/bgs.jpg' style='width:100%;height:240rpx;'></image>
+      <view class='likeListsCW'>
+        <text>dsafsad asfjk驾驶开放了地方克利夫兰看的打分卡拉夫打分卡拉夫开发的公司</text>
+      </view>
+    </view>
+  </view>
+  <!-- 第一条循环 end-->
+
+  <!-- 第一条循环 -->
+  <view class='likeLists'>
+    <!--1 -->
+    <view class='likeListsL'>
+      <text class='likeListsLS'>电影</text>
+      <view class='likeListsI'>
+        <image src='/img/popular/likeactive.png' style='width:36rpx;height:28rpx;'></image>
+        <text>111</text>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class='likeListsC'>
+      <image src='/img/like/bgs.jpg' style='width:100%;height:240rpx;'></image>
+      <view class='likeListsCW'>
+        <text>dsafsad asfjk驾驶开放了地方克利夫兰看的打分卡拉夫打分卡拉夫开发的公司</text>
+      </view>
+    </view>
+  </view>
+  <!-- 第一条循环 end-->
+
+  <!-- 第一条循环 -->
+  <view class='likeLists'>
+    <!--1 -->
+    <view class='likeListsL'>
+      <text class='likeListsLS'>电影</text>
+      <view class='likeListsI'>
+        <image src='/img/popular/likeactive.png' style='width:36rpx;height:28rpx;'></image>
+        <text>111</text>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class='likeListsC'>
+      <image src='/img/like/bgs.jpg' style='width:100%;height:240rpx;'></image>
+      <view class='likeListsCW'>
+        <text>dsafsad asfjk驾驶开放了地方克利夫兰看的打分卡拉夫打分卡拉夫开发的公司</text>
+      </view>
+    </view>
+  </view>
+  <!-- 第一条循环 end-->
+</view>
+<!-- 喜欢内容循环 end-->

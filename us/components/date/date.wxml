@@ -1,0 +1,9 @@
+<!--components/date/date.wxml-->
+<view class='navErapLeft'>
+  <text class='texts'>no.</text>
+  <text class='navErapLeftBig'>17</text>
+  <view class='navErapLeftLandscape'>
+    <text> 三月</text>
+    <text>2016</text>
+  </view>
+</view>

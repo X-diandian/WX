@@ -1,0 +1,12 @@
+/* pages/like/about/about.wxss */
+
+.wrapimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapimg image {
+  height: 100%;
+  width: 100%;
+}

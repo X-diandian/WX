@@ -1,0 +1,164 @@
+/* pages/like/like.wxss */
+
+/* 背景图 */
+
+.bgwrap {
+  background-color: white;
+}
+
+.userG {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -120rpx;
+}
+
+.userG image {
+  margin: 0 auto;
+}
+
+.userG text {
+  text-align: center;
+  font-size: 34rpx;
+  color: rgba(0, 0, 0, 1);
+}
+
+.usert {
+  text-align: center;
+  font-size: 34rpx;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* 导航 */
+
+.likeNav {
+  display: flex;
+  height: 140rpx;
+}
+
+.likeNav view {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.likeNav .likeNavLeft image {
+  margin: 0 auto;
+  padding-top: 30rpx;
+}
+
+.likeNav .likeNavLeft text {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  color: rgba(153, 153, 153, 1);
+  margin-bottom: 30rpx;
+}
+
+/* 右边导航 */
+
+.likeNav .likeNavRight text:nth-child(1) {
+  padding-top: 30rpx;
+  display: block;
+  text-align: center;
+  font-size: 36rpx;
+  line-height: 36rpx;
+  color: rgba(0, 0, 0, 1);
+}
+
+.likeNav .likeNavRight text:nth-child(2) {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  color: rgba(153, 153, 153, 1);
+  margin-bottom: 30rpx;
+}
+
+/* 喜欢标题 */
+
+.likeTitle {
+  background: rgba(245, 245, 245, 1);
+  font-size: 34rpx;
+  padding-top: 52rpx;
+  padding-bottom: 28rpx;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+/* 喜欢内容循环 */
+
+.likeListswrap {
+  background: rgba(245, 245, 245, 1);
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.likeLists {
+  width: 330rpx;
+  height: 470rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 9px 0px rgba(186, 186, 186, 0.2);
+  margin-bottom: 30rpx;
+}
+
+/* 循环 */
+
+.likeListsL {
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  padding-left: 22rpx;
+  padding-right: 8rpx;
+}
+
+.likeListsL .likeListsLS {
+  display: block;
+  font-size: 24rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  color: rgba(15, 15, 15, 1);
+  padding: 14rpx;
+  background: rgba(247, 247, 247, 1);
+  margin-top: 12rpx;
+}
+
+.likeListsI {
+  font-size: 18rpx;
+  display: flex;
+  color: rgba(187, 187, 187, 1);
+}
+
+.likeListsI image {
+  margin-top: 30rpx;
+}
+
+.likeListsI text {
+  margin-top: 20rpx;
+}
+
+.likeListsC .likeListsCW {
+  display: block;
+  font-size: 28rpx;
+  height: 60rpx;
+  color: rgba(153, 153, 153, 1);
+  padding: 20rpx 22rpx;
+  overflow: hidden;
+}
+
+.likeListsC .likeListsCW text {
+  display: block;
+  font-size: 28rpx;
+  line-height: 21px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

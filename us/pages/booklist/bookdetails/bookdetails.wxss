@@ -1,0 +1,152 @@
+/* pages/booklist/bookdetails/bookdetails.wxss */
+
+/* 搜索 */
+
+.searchWrap {
+  margin: 20rpx 30rpx;
+}
+
+.searchWrap .search {
+  width: 100%;
+  height: 68rpx;
+  display: flex;
+  align-items: center;
+  background: rgba(247, 247, 247, 1);
+  border-radius: 17px;
+}
+
+.search image {
+  margin-left: 35%;
+  margin-right: 10rpx;
+}
+
+.Lcneter {
+  width: 100%;
+  min-height: 100rpx;
+  background: rgba(247, 247, 247, 1);
+}
+
+.LcneterTitle {
+  padding-top: 38rpx;
+  padding-bottom: 26rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: rgba(0, 0, 0, 1);
+  line-height: 34rpx;
+}
+
+/* 背景 */
+
+.center {
+  background-color: rgba(247, 247, 247, 1);
+  padding-top: 20rpx;
+}
+
+/* 封面 */
+
+.essayname {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 42rpx;
+  padding-bottom: 30rpx;
+}
+
+.essay {
+  width: 375px;
+  height: 245px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.essayuthor text {
+  display: block;
+  text-align: center;
+  background-color: white;
+}
+
+.essayuthor .essaynamefont {
+  font-size: 38rpx;
+  height: 38drpx;
+  line-height: 38rpx;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 16rpx;
+}
+
+.essayuthor .uthor {
+  font-size: 14px;
+  color: rgba(153, 153, 153, 1);
+  padding-bottom: 42rpx;
+}
+
+/* 短评 */
+
+.essaywrap {
+  margin-top: 20rpx;
+  background-color: white;
+}
+
+.essaywrap .essaytitle {
+  display: block;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: rgba(0, 0, 0, 1);
+}
+
+.essaywrap .essaytcneter {
+  padding-left: 26rpx;
+  padding-right: 26rpx;
+}
+
+.essaywrap .essaytcneter text {
+  display: block;
+  float: left;
+  padding: 14rpx 28rpx;
+  background: rgba(247, 247, 247, 1);
+  border-radius: 13px;
+  margin-right: 12rpx;
+  margin-bottom: 20rpx;
+  font-size: 24rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.essaywrap .essaytcneter text::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 内容简介 */
+
+.introduction {
+  background-color: white;
+  padding: 0 30rpx 30rpx 30rpx;
+}
+
+.introduction text {
+  font-size: 28rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+/* 书本信息 */
+
+.bookInformation {
+  background: rgba(255, 255, 255, 1);
+  margin: 0 30rpx;
+}
+
+.bookInformationwrap text {
+  font-size: 24rpx;
+  color: rgba(102, 102, 102, 1);
+}
+.bookInformationwraps{
+    display: flex;
+    padding-bottom: 20rpx;
+  }
+.bookInformationwrap text:nth-child(odd){
+  display: block;
+  width: 80rpx;
+  text-align: right;
+  margin-right: 20rpx;
+}

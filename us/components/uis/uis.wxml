@@ -1,0 +1,13 @@
+<!--components/uis/uis.wxml-->
+<!--components/like/like.wxml-->
+<view class='navErapRight'>
+  <view class='like' bindtap='like'>
+    <image src='{{valess?likeactive:like}}' style='width:32rpx;height:28rpx;'></image>
+  </view>
+  <view class='likeFont'>
+    <text>{{count}}</text>
+  </view>
+  <view class='collection'>
+    <image src='/img/popular/collection.png' style='width:32rpx;height:28rpx;'></image>
+  </view>
+</view>

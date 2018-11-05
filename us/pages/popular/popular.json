@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "流行",
+  "usingComponents": {
+    "date": "/components/date/date",
+    "like": "/components/uis/uis"
+  }
+}

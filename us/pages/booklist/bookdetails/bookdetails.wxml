@@ -1,0 +1,85 @@
+<!--pages/booklist/bookdetails/bookdetails.wxml-->
+<!-- 搜索 -->
+<view class='searchWrap'>
+  <view class='search'>
+    <image src='/img/booklist/search.png' style='width:28rpx;height:28rpx;'></image>
+    <input placeholder="搜索图书名称" placeholder-style="font-size:28rpx;color:rgba(153,153,153,1);"></input>
+  </view>
+</view>
+<!-- 搜索 end-->
+
+<view class='center'>
+
+  <!-- 封面-->
+  <view class='essay'>
+    <view class='essayname'>
+      <image src='/img/popular/bannerBg.png' style='width:200rpx;height:300rpx;'></image>
+    </view>
+  </view>
+  <view class='essayuthor'>
+    <text class='essaynamefont'>爱你就像爱生命</text>
+    <text class='uthor'>李银河</text>
+  </view>
+  <!-- 封面 end-->
+
+  <!-- 短评 -->
+  <view class='essaywrap'>
+    <text class='essaytitle'>短评</text>
+    <view class='essaytcneter'>
+      <block wx:for="{{list}}" wx:for-item="item">
+        <text class=''>{{item.lst}}</text>
+      </block>
+      <view style='clear: both;'> </view>
+    </view>
+  </view>
+  <!-- 短评 end-->
+
+  <!-- 内容简介 -->
+  <view class='essaywrap'>
+    <text class='essaytitle'>内容简介</text>
+  </view>
+  <view class='introduction'>
+    <text>王小波书信均选自朝华出版社2004年4月第一版《爱你就像爱生命》，此书系王小波生前从未发表过的与李银河的“两地书”，也是迄今他们夫妇最完整和独立的一本书信集。</text>
+  </view>
+  <!-- 内容简介 end-->
+
+  <!-- 书本信息 -->
+  <view class=''>
+    <view class='essaywrap'>
+      <text class='essaytitle'>书本信息</text>
+    </view>
+    <view class='bookInformation'>
+      <view class='bookInformationwrap'>
+        <view class='bookInformationwraps'>
+          <text>出版社</text>
+          <text>上海锦绣文章出版社</text>
+        </view>
+        <view class='bookInformationwraps'>
+          <text>出版年</text>
+          <text>2008-5</text>
+        </view>
+        <view class='bookInformationwraps'>
+          <text>页数</text>
+          <text>222</text>
+        </view>
+        <view class='bookInformationwraps'>
+          <text>定价</text>
+          <text>￥18.00元</text>
+        </view>
+        <view class='bookInformationwraps'>
+          <text>精装</text>
+          <text>平装</text>
+        </view>
+        <view class='bookInformationwraps'>
+          <text>ISBN</text>
+          <text>9787806859988</text>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <!-- 书本信息 end-->
+
+
+</view>

@@ -1,12 +1,39 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/popular/popular",
+    "pages/like/like",
+    "pages/booklist/bookdetails/bookdetails",
+    "pages/booklist/booklist",
+    "pages/logs/logs",
+    "pages/booklist/search/search",
+    "pages/like/about/about",
+    "components/date/date"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "list": [
+      {
+        "selectedIconPath": "img/tab/classic.png",
+        "iconPath": "img/tab/classic@highlight.png",
+        "pagePath": "pages/popular/popular",
+        "text": "流行"
+      },
+      {
+        "selectedIconPath": "img/tab/book.png",
+        "iconPath": "img/tab/book@highlight.png",
+        "pagePath": "pages/booklist/booklist",
+        "text": "书单"
+      },
+      {
+        "selectedIconPath": "img/tab/my.png",
+        "iconPath": "img/tab/my@highlight.png",
+        "pagePath": "pages/like/like",
+        "text": "喜欢"
+      }
+    ]
   }
 }

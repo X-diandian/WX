@@ -1,0 +1,47 @@
+<!--pages/popular/popular.wxml-->
+
+<!-- 时间/分享 -->
+<view class='navErap'>
+  <view class='navErapPadding'>
+
+    <!-- 时间 -->
+    <date></date>
+    <!-- 时间 -->
+
+    <!-- 点赞 -->
+    <like></like>
+    <!-- 点赞 end-->
+
+  </view>
+</view>
+<!-- 时间/分享 end -->
+
+<!-- banner -->
+<view class='bannerWrap'>
+  <image wx:if="{{typse==100}}" src='{{teachers.image}}' name="1" style='width:100%;height:500rpx;'></image>
+  <image wx:elif="{{typse==200}}" src='{{teachers.image}}' name="2" style='width:100%;height:500rpx;'></image>
+  <image wx:else="{{typse==300}}" src='{{teachers.image}}' name="3" style='width:100%;height:500rpx;'></image>
+</view>
+<!-- banner end-->
+
+<!-- 期刊类型 -->
+<view class='guideWords'>
+  <image src='/img/popular/bannerTitle.png' style='width:64rpx;height:142rpx;margin-top:-60rpx;'> </image>
+</view>
+<!-- 期刊类型 end -->
+
+<!-- 文字引导 -->
+<view class='guideWordssFont'>
+  <text>{{teachers.content}}</text>
+</view>
+<!-- 文字引导 end-->
+
+<!-- 切换 -->
+<view class='swiperWrap'>
+  <view class='swiperCenter'>
+    <image src='/img/popular/piece.png'></image>
+    <text>{{teachers.title}}</text>
+    <image src='/img/popular/next.png'></image>
+  </view>
+</view>
+<!-- 切换 end-->

@@ -1,0 +1,47 @@
+<!--pages/booklist/search/search.wxml-->
+<!-- 搜索 -->
+<view class='SsearchWrap'>
+  <view class='SflexWrap'>
+    <view class='search'>
+      <image src='/img/booklist/search.png' style='width:28rpx;height:28rpx;'></image>
+
+        <input placeholder='搜索图书名称' placeholder-style='font-size:28rpx;color:rgba(153,153,153,1);'></input>
+
+
+    </view>
+    <view class='but'>
+      <button>搜索</button>
+    </view>
+  </view>
+</view>
+<!-- 搜索 end-->
+
+<!-- 历史记录 -->
+<view class='historicalRecord'>
+  <view class='historicalRecordTitle'>
+    <text>历史记录</text>
+  </view>
+</view>
+<view class='historicalRecordCenter'>
+  <view class='historCenter'>
+    <block wx:for="{{mes}}" wx:for-item="item">
+      <button>{{item.name}}</button>
+    </block>
+  </view>
+</view>
+<!-- 历史记录 end-->
+
+<!-- 热门搜索 -->
+<view class='historicalRecord'>
+  <view class='historicalRecordTitle'>
+    <text>热门搜索</text>
+  </view>
+</view>
+<view class='historicalRecordCenter'>
+  <view class='historCenter'>
+    <block wx:for="{{mes}}" wx:for-item="item">
+      <button>{{item.name}}</button>
+    </block>
+  </view>
+</view>
+<!-- 热门搜索 end-->

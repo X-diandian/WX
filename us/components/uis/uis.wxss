@@ -1,0 +1,22 @@
+/* components/like/like.wxss */
+.likeFont {
+  font-size: 18rpx;
+  font-weight: 400;
+  color: rgba(187, 187, 187, 1);
+}
+.navErapRight {
+  display: flex;
+  /* padding-top: 29rpx; */
+}
+.navErapRight .like {
+  margin-top: 29rpx;
+}
+
+.navErapRight .likeFont {
+  margin-top: 30rpx;
+  margin-right: 42rpx;
+}
+
+.navErapRight .collection {
+  margin-top: 29rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/like/about/about.wxml-->
+<view class='wrapimg'>
+  <image src='/img/about.png' ></image>
+</view>

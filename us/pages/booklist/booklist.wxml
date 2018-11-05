@@ -1,0 +1,131 @@
+<!--pages/booklist/booklist.wxml-->
+<!-- 搜索 -->
+<view class='searchWrap'>
+  <view class='search'>
+    <image src='/img/booklist/search.png' style='width:28rpx;height:28rpx;'></image>
+    <navigator url='/pages/booklist/search/search' hover-class="none">
+      <input placeholder="搜索图书名称" placeholder-style="font-size:28rpx;color:rgba(153,153,153,1);"></input>
+    </navigator>
+  </view>
+</view>
+<!-- 搜索 end-->
+
+<!-- 列表 -->
+<view class='Lcneter'>
+  <!-- 标题 -->
+  <view class='LcneterTitle'>
+    <text>精选</text>
+  </view>
+  <!-- 标题 end-->
+  <!-- 内容 -->
+  <view class='LcneterList'>
+    <!-- 第一个list -->
+    <navigator url='/pages/booklist/bookdetails/bookdetails' hover-class='none'>
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+     </navigator>
+    <!-- 第一个list end-->
+    <!-- 第一个list -->
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+    <!-- 第一个list end-->
+    <!-- 第一个list -->
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+    <!-- 第一个list end-->
+    <!-- 第一个list -->
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+    <!-- 第一个list end-->
+    <!-- 第一个list -->
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+    <!-- 第一个list end-->
+    <!-- 第一个list -->
+    <view class='LcneterListM'>
+      <image src='/img/popular/bannerBg.png' style='width:240rpx;height:222rpx'></image>
+      <view class='LcneterListMTitleWrap'>
+        <text class='LcneterListMTitle'>爱你就像爱生命</text>
+      </view>
+      <view class='LcneterListMUserWrop'>
+        <text class='LcneterListMUser'>李银河</text>
+      </view>
+      <view class='commentsWrap'>
+        <text>1111</text>
+        <text style='  margin-left: 6rpx;margin-right: 6rpx;'>喜欢·</text>
+        <text>34</text>
+        <text>短评</text>
+      </view>
+    </view>
+    <!-- 第一个list end-->
+  </view>
+  <!-- 内容 end-->
+
+
+</view>
+<!-- 列表 end-->
